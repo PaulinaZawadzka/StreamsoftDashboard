@@ -1,0 +1,66 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900&subset=latin-ext');
+
+
+.container
+{max-width: 100%;}
+
+.row
+{
+margin-left: 0px;
+margin-right: 0px;
+}
+
+.mypadding
+{padding:5px;}
+
+.myborder
+{
+  border-radius: 5px;
+  border-style: solid;
+  border-top-width: 1px;
+  border-right-width: 20px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+ }
+
+.border-green
+{border-color:green;}
+
+.border-red
+{border-color:red;}
+
+.border-orange
+{border-color: rgb(255, 123, 0)}
+
+.border-yellow
+{border-color: rgb(243, 247, 6);}
+
+.border-grey
+{border-color:rgb(121, 119, 119);}
+.border-blue
+{border-color:rgb(0, 132, 255);}
+
+.member-name-style
+{
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bolder;
+  margin-left: -15px;
+}
+
+.member-status-style,
+.member-time-style
+{
+  padding: 5px;
+  font-size: 8px;
+
+}
+
+h5
+{padding: 10px 0 0 0;
+font-size: 14px;
+font-weight: 700;
+}
+h6
+{font-size: 12px;}

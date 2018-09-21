@@ -1,0 +1,42 @@
+
+body {
+  background-color: rgb(209, 209, 209);
+}
+
+
+header {
+ height: 70px;
+ font-size: 50px;
+ line-height: 70px;
+ padding-left: 20px;
+ margin-top: -10px;
+ margin-left: -10px;
+ margin-right: -10px;
+ margin-bottom: 20px;
+ background-color: black;
+ color: white;
+}
+
+header div {
+position: absolute;
+top: -17px;
+left: 78px;}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.row {
+margin-left: 0px;
+margin-right: 0px;
+}
+
+.members-box-border {
+margin-top: 5px;
+padding-bottom:10px;
+border: 1px solid black;
+border-radius: 5px;
+background-color: white;
+}

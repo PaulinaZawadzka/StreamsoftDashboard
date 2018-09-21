@@ -1,0 +1,32 @@
+<div class="container mypadding row">
+  <div class="col-9 border border-dark rounded"  >
+    <div class="row">
+      <div class=" col-md-6 col-lg-3 mypadding " *ngFor='let member of allMembersList'>
+        <div class="container myborder" [ngClass]="{'border-green' : member.status==='zielony', 'border-red' : member.status==='czerwony',
+        'border-orange' : member.status==='pomarańczowy', 'border-yellow' : member.status==='żółty',
+        'border-blue' : member.status==='niebieski', 'border-grey' : member.status==='szary'
+        }">
+          <div class="row member-name-style ">{{member.name}}
+          </div>
+          <div class="row" style="margin-left: -15px; margin-right: -15px;">
+              <div class=" col-6 member-status-style"> {{member.status}}</div>
+              <div class=" col-6 member-time-style"> {{member.czas}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-3" style="padding-left:10px;">
+<div class="col-12 border border-dark rounded " style="height: 100%;">
+  <h5>Service desk Firma Prestiż</h5>
+  <h6>Kolejka połaczeń</h6>
+</div>
+
+  </div>
+</div>
+
+
+
+
+
+
